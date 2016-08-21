@@ -1,0 +1,26 @@
+<!Doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Курси по javascript</title>
+</head>
+<body>
+<script type="text/javascript">
+  function symbolsCount(myString) {
+  	return myString.length;
+  }
+
+  var word = prompt("Введите любое слово");
+  var rez = symbolsCount(word);
+  if (rez < 10) {
+  	document.write("В данном слове меньше 10 символов"); 
+  }
+  else if (rez == 10) {
+  	document.write("В данном слове 10 символов"); 
+  }
+  else {
+  	document.write("В данном слове больше 10 символов"); 
+  }
+</script>
+</body>
+</html>
